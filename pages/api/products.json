@@ -11,7 +11,7 @@
     {
         "id": 2,
         "name": "Chubby Corgi",
-        "price": "0.2",
+        "price": "0.02",
         "description": "Only thing chubby was the devs wallet",
         "image_url": "https://gateway.pinata.cloud/ipfs/QmPdxgcwde54Y4mfCSPjtnwS4DRhAoZNp6uwoVWbJZznNj",
         "filename": "chubby-corgi-8670.png",

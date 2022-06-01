@@ -53,10 +53,7 @@ const createTransaction = async (req, res) => {
 
     const buyerUsdcAddress = await getAssociatedTokenAddress(usdcAddress, buyerPublicKey)
     const shopUsdcAddress = await getAssociatedTokenAddress(usdcAddress, sellerPublicKey)
-
-    // A blockhash is sort of like an ID for a block. It lets you identify each block.
     const { blockhash } = await connection.getLatestBlockhash("finalized");
-
     const usdcMint = await getMint(connection, usdcAddress);
 
     // The first two things we need - a recent block ID
