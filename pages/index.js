@@ -52,6 +52,7 @@ const App = () => {
         <header className="header-container">
           <p className="header"> 🚩 Junk Wallet</p>
           <p className="sub-text">Buy my rugs!</p>
+          <p><em>(You must be connected to Devnet)</em></p>
           {isOwner && (
             <button className="create-product-button" onClick={() => setCreating(!creating)}>
               {creating ? "Close" : "Create Product"}
