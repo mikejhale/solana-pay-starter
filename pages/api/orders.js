@@ -25,7 +25,7 @@ async function post(req, res) {
       res.status(400).send("Order already exists")
     }
   } catch (err) {
-    res.status(400).send(err)
+    res.status(400).send('POST error')
   }
 }
 
